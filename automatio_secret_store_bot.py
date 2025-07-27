@@ -8,7 +8,7 @@ with open('bot/secrets_test.json', 'r') as f:
     secrets_test = json.load(f)
 
 # === Start your session ===
-session = boto3.Session(profile_name='isaac_sd')
+session = boto3.Session(profile_name='xxx')
 secrets_client = session.client('secretsmanager')
 
 # === Start timing ===
